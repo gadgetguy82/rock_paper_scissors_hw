@@ -1,0 +1,46 @@
+.rock-bg {
+  background: url("images/Rock_img.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+.paper-bg {
+  background-image: url("images/Paper_img.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+.scissors-bg {
+  background-image: url("images/Scissor_img.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+.select {
+  background-color: white;
+  font-size: 16px;
+  z-index: -1;
+  width: 200px;
+}
+
+.winner {
+  background-image: url("images/Award_img.jpeg");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+body {
+  background-color: lightyellow;
+}
