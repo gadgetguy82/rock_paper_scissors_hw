@@ -26,8 +26,7 @@
 }
 
 .select {
-  background-color: white;
-  font-size: 16px;
+  font-size: 20px;
   z-index: -1;
   width: 200px;
 }
@@ -43,4 +42,53 @@
 
 body {
   background-color: lightyellow;
+}
+
+ul.navbar {
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.navlist {
+  float: left;
+  display: inline;
+}
+
+a.navlink {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: lightblue;
 }
