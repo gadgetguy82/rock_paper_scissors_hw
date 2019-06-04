@@ -22,6 +22,18 @@ get "/paper/:throw" do
   erb(:result)
 end
 
+get "/rock" do
+  erb(:rock)
+end
+
+get "/scissors" do
+  erb(:scissors)
+end
+
+get "/paper" do
+  erb(:paper)
+end
+
 get "/" do
   erb(:home)
 end

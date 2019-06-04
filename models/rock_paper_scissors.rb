@@ -6,31 +6,31 @@ class RockPaperScissors
 
   def rock
     if @throw == "scissors"
-      return "Rock wins"
+      return "Player 1 wins by playing Rock"
     elsif @throw == "paper"
-      return "Paper wins"
+      return "Player 2 wins by playing Paper"
     else
-      return "A Draw"
+      return "a draw"
     end
   end
 
   def scissors
     if @throw == "rock"
-      return "Rock wins"
+      return "Player 2 wins by playing Rock"
     elsif @throw == "paper"
-      return "Scissors wins"
+      return "Player 1 wins by playing Scissors"
     else
-      return "A Draw"
+      return "a draw"
     end
   end
 
   def paper
     if @throw == "scissors"
-      return "Scissors wins"
+      return "Player 2 wins by playing Scissors"
     elsif @throw == "rock"
-      return "Paper wins"
+      return "Player 1 wins by playing Paper"
     else
-      return "A Draw"
+      return "a draw"
     end
   end
 
