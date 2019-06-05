@@ -1,5 +1,5 @@
 .rock-bg {
-  background: url("images/Rock_img.jpg");
+  background-image: url("images/Rock_img.jpg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -25,12 +25,6 @@
   z-index: -2;
 }
 
-.select {
-  font-size: 20px;
-  z-index: -1;
-  width: 200px;
-}
-
 .winner {
   background-image: url("images/Award_img.jpeg");
   background-color: #cccccc;
@@ -38,6 +32,12 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: -2;
+}
+
+.select {
+  font-size: 20px;
+  z-index: -1;
+  width: 200px;
 }
 
 body {
